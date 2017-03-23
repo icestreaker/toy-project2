@@ -63,7 +63,7 @@ a {
   text-decoration: underline;
 }
 
-.notFound {
+.NotFoundPage {
   margin: 0 auto;
   max-width: 800px;
   padding: 2em;
@@ -71,13 +71,13 @@ a {
   width: 100%;
 }
 
-.notFound h1 {
+.NotFoundPage h1 {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
 }
 
-.notFound h3 {
+.NotFoundPage h3 {
   font-size: 2em;
   text-align: center;
 }
@@ -118,11 +118,4 @@ a {
 
 .aboutUs p {
   text-align: justify;
-}
-
-.navigateBack {
-  font-size: 1.6em;
-  padding: 2em;
-  text-align: center;
-  text-decoration: none;
 }

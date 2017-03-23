@@ -1,15 +1,25 @@
+'use strict'
+
 import React, { Component } from 'react';
-import appHeader from './appHeader';
-import probSol from './probSol';
-import newUser from './newUser';
+import { Link } from 'react-router';
+import appHeader from '../components/appHeader';
+import probSol from '../components/probSol';
+import newUser from '../components/newUser';
 
 export default class landing extends Component {
   render () {
     return (
-      <div className="homePage">
-        <a href="./appHeader"></a>
-        <a href="./probSol"></a>
-        <a href="./newUser"></a>
+      <div>
+        <appHeader />
+        <probSol />
+        <newUser />
+
+        <h3>
+          <p>
+            <Link to="/About">Check out the group</Link>
+          </p>
+        </h3>
+
       </div>
     );
   }

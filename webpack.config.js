@@ -7,17 +7,17 @@ const path = require('path');
 
 module.exports = {
   devtool: debug ? 'inline-sourcemap' : null,
-  entry: path.join(__dirname, 'src', 'app-client.js'),
+  entry: path.join(__dirname, 'Public', 'js', 'bundle.js'),
   devServer: {
     inline: true,
     port: 3333,
-    contentBase: "src/static/",
+    contentBase: 'Public/',
     historyApiFallback: {
-      index: '/index-static.html'
+      index: 'index.html'
     }
   },
   output: {
-    path: path.join(__dirname, 'src', 'static', 'js'),
+    path: path.join(__dirname, 'Public', 'js'),
     publicPath: "/js/",
     filename: 'bundle.js'
   },

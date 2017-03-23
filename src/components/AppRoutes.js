@@ -1,10 +1,8 @@
-'use strict';
-
-import React from 'react';
+import React, { Components } from 'react';
 import { Router, browserHistory } from 'react-router';
-import routes from '../routes';
+import Routes from '../routes';
 
-export default class AppRoutes extends React.Component {
+export default class AppRoutes extends Component {
   render() {
     return (
       <Router history={browserHistory} routes={routes} onUpdate={() => window.scrollTo(0, 0)}/>

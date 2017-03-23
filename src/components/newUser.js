@@ -25,8 +25,8 @@ export default class newUser extends Component {
               <InputGroupButton>Submit</InputGroupButton>
             </FormGroup>
           </Form>
-        <Col class="col-sm-12 col-md-4"></Col>
         </Col>
+        <Col class="col-sm-12 col-md-4"></Col>
         </Row>
 
       </div>

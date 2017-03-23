@@ -4,10 +4,10 @@ import React, { Component } from 'react';
 import newUser from './newUser';
 import { Row, Col } from 'reactstrap';
 
-export default class landing extends Component {
+export default class appHeader extends Component {
   render () {
     return (
-      <div className="appHeader">
+      <div>
 
         <Row>
         <Col class="col-sm-12 col-md-12">
