@@ -1,0 +1,128 @@
+/*! CSS reset from benfrain/app-reset */
+*,:after,:before{box-sizing:inherit}html{box-sizing:border-box}
+*{user-select:none;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color:transparent}
+[contenteditable],input[type]{user-select:text}body,h1,h2,h3,h4,h5,h6,p{margin:0;font-size:1rem;font-weight:400}
+a{text-decoration:none;color:inherit}b{font-weight:400}em,i{font-style:normal}a:focus,input:focus{outline:0}
+fieldset,input{appearance:none;border:0;padding:0;margin:0;min-width:0;font-size:1rem;font-family:inherit}
+input::-ms-clear{display:none}input[type=number]{-moz-appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{appearance:none}
+svg{display:inline-flex}img{max-width:100%;display:block}
+@media (max-width: 768px) {
+  html {
+    color: white;
+    background-color: black;
+    font: Verdana;
+    padding-bottom: 2em;
+  }
+
+  header {
+    padding: 2em;
+  }
+
+  footer {
+    margin: 4em auto;
+    padding: 2em;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  .col-sm-12 = 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    color: white;
+    background-color: black;
+    font: Verdana;
+    padding-bottom: 2em;
+  }
+
+  header {
+    padding: 2em;
+  }
+
+  footer {
+    margin: 4em auto;
+    padding: 2em;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .col-md-12 = 100%;
+  .col-md-4 = 33.33333%;
+  .col-md-6 = 50%;
+  }
+}
+
+a {
+  color: #1f4ba0;
+  text-decoration: underline;
+}
+
+.notFound {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.notFound h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.notFound h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.newUser Label, Input {
+  text-align: left;
+}
+
+.appHeader h2, h3 {
+  color: red;
+  text-align: center;
+}
+
+.appHeader p {
+  color: green;
+  text-align: center;
+}
+
+.probSol h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.probSol p {
+  text-align: justify;
+}
+
+.aboutUs h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutUs h2 {
+  color: Red;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutUs p {
+  text-align: justify;
+}
+
+.navigateBack {
+  font-size: 1.6em;
+  padding: 2em;
+  text-align: center;
+  text-decoration: none;
+}
